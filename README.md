@@ -49,7 +49,7 @@ Inject plugin to your vue instance by ```Vue.use``` then initial it in your comp
 Default Injection
 ```javascript
 import Vue from 'vue'
-import VueBarcodeScanner from 'vue-barcode-scanner'
+import VueBarcodeScanner from 'vue3-barcode-scanner'
 
 ...
 
