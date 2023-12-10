@@ -263,6 +263,8 @@ const VueBarcodeScanner = {
       let audio = new Audio(attributes.setting.soundSrc)
       audio.play()
     }
+    
+    app.provide('barcodeScanner', app.config.globalProperties.$barcodeScanner)    
   }
 }
 
